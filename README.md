@@ -3,18 +3,22 @@
 flutter 海康云眸SDK插件
 
 ## 实现功能
+
 android 实时预览+对讲
 
 
 #####安装
+
 添加依赖 `flutter_yunmou 到 pubspec.yaml 文件
 
 #####运行
+
 ```bash
 flutter pub get
 ```
 
 #### android权限
+
 在 android/app/src/main/AndroidMainfest.xml 文件中添加权限:
 ```
     <uses-permission
@@ -63,6 +67,7 @@ flutter pub get
 ```
 
 ####kotlin 修改MainActivity.kt
+
 ```
 package com.example.shuangyang
 
@@ -94,6 +99,7 @@ class MainActivity : FlutterActivity() {
 
 
 ####Java 修改MainActivity.java
+
 ```
 package com.shuangyang.flutter_yunmou_example;
 
@@ -119,6 +125,7 @@ public class MainActivity extends FlutterActivity {
 ```
 
 ####代码混淆
+
 sdk打包不能混淆，android/app 下添加文件 proguard-rules.pro
 ```
 -dontwarn com.ezviz.**
@@ -328,5 +335,6 @@ class _MyAppState extends State<MyApp> {
 
 
 ####其它问题
+
 海康云眸SDK版本：HikCloudOpenSDK_v1.3.1_20230913.aar
 gradle版本: 7.3.0
