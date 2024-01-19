@@ -337,4 +337,5 @@ class _MyAppState extends State<MyApp> {
 #### 其它问题
 
 海康云眸SDK版本：HikCloudOpenSDK_v1.3.1_20230913.aar
+
 gradle版本: 7.3.0
